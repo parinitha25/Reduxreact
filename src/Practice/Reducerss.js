@@ -1,7 +1,7 @@
 const initialState={
     age:20
 };
-const reducer=(state=initialState,action)=>{
+const reducerss=(state=initialState,action)=>{
 const newState={...state};
 
 switch(action.type){
@@ -23,4 +23,4 @@ switch(action.type){
 }
 return newState;
 };
-export default reducer;
+export default reducerss;
